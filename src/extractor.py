@@ -1,6 +1,6 @@
 import pandas as pd 
 import logging
-from src.config import CSV_FILES, FILE_ENCODING, CSV_SEPARATOR
+from config import CSV_FILES, FILE_ENCODING, CSV_SEPARATOR
 from pathlib import Path
 
 class CensoExtractor:
