@@ -10,8 +10,7 @@ class CensoTransformer:
     def transform_data(self, file_type: str, df: pd.DataFrame) -> pd.DataFrame:
         """Aplica transformações nos dados e salva o resultado."""
         try:
-            # Exemplo de transformação (pode ser ajustado conforme necessário)
-            df_transformed = df.dropna()  # Remove valores nulos
+            df_transformed = df.dropna()  
 
             output_path = Path(PROCESSED_DIR) / f"{file_type}_processed.csv"
             df_transformed.to_csv(output_path, index=False)

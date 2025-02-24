@@ -12,12 +12,12 @@ class CensoExtractor:
         """
         Valida se os arquivos existem 
         """
-        if len(CSV_FILES) == 0:  # Modificado aqui
+        if len(CSV_FILES) == 0: 
             self.logger.error("Nenhum arquivo CSV encontrado")
             return False
         
         for file_type, file_path in CSV_FILES.items():
-            if not Path(file_path).exists():  # Modificado aqui
+            if not Path(file_path).exists():  
                 self.logger.error(f"Arquivo {file_type} não encontrado: {file_path}")
                 return False
         return True

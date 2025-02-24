@@ -17,6 +17,7 @@ def get_csv_files():
     Encontra todos os arquivos CSV no diretório raw
     """
     csv_files = {}
+    
     for file_path in RAW_DIR.glob('**/*.CSV'):  
         file_key = file_path.stem.lower()  
         csv_files[file_key] = file_path
