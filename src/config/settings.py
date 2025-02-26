@@ -6,9 +6,11 @@ RAW_DIR = BASE_DIR / 'data' / 'raw'
 PROCESSED_DIR = BASE_DIR / 'data' / 'processed'
 FINAL_DIR = BASE_DIR / 'data' / 'final'
 
+# Criar diretórios se não existirem
 for directory in [PROCESSED_DIR, FINAL_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
+# Configurações de arquivo
 FILE_ENCODING = 'latin-1'
 CSV_SEPARATOR = '|'
 
@@ -23,9 +25,10 @@ def get_csv_files():
         csv_files[file_key] = file_path
     return csv_files
 
-
+# Dicionário com os arquivos CSV encontrados
 CSV_FILES = get_csv_files()
 
+# Log dos arquivos encontrados
 print("\nArquivos CSV encontrados:")
 for key, path in CSV_FILES.items():
     print(f"- {key}: {path}")
