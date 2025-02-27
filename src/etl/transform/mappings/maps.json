@@ -1,0 +1,103 @@
+{
+    "TP_DEPENDENCIA": {
+      "values": {
+        "1": "Federal",
+        "2": "Estadual",
+        "3": "Municipal",
+        "4": "Privada"
+      }
+    },
+    "TP_CATEGORIA_ESCOLA_PRIVADA": {
+      "values": {
+        "1": "Particular",
+        "2": "Comunitária",
+        "3": "Confessional",
+        "4": "Filantrópica"
+      }
+    },
+    "TP_LOCALIZACAO": {
+      "values": {
+        "1": "Urbana",
+        "2": "Rural"
+      }
+    },
+    "TP_LOCALIZACAO_DIFERENCIADA": {
+      "values": {
+        "0": "A escola não está em área de localização diferenciada",
+        "1": "Área de assentamento",
+        "2": "Terra indígena",
+        "3": "Área onde se localiza comunidade remanescente de quilombos",
+        "8": "Área onde se localizam povos e comunidades tradicionais"
+      }
+    },
+    "TP_REGULAMENTACAO": {
+      "values": {
+        "0": "Não",
+        "1": "Sim",
+        "2": "Em tramitação"
+      }
+    },
+    "TP_RESPONSAVEL_REGULAMENTACAO": {
+      "values": {
+        "1": "Federal",
+        "2": "Estadual",
+        "3": "Municipal",
+        "4": "Estadual e Municipal",
+        "5": "Federal e Estadual",
+        "6": "Federal, Estadual e Municipal",
+        "9": "Não informado"
+      }
+    },
+    "TP_OCUPACAO_PREDIO_ESCOLAR": {
+      "values": {
+        "1": "Próprio",
+        "2": "Alugado",
+        "3": "Cedido"
+      }
+    },
+    "TP_OCUPACAO_GALPAO": {
+      "values": {
+        "1": "Próprio",
+        "2": "Alugado",
+        "3": "Cedido",
+        "9": "Não informado"
+      }
+    },
+    "TP_REDE_LOCAL": {
+      "values": {
+        "0": "Não há rede local interligando computadores",
+        "1": "A cabo",
+        "2": "Wireless",
+        "3": "A cabo e wireless"
+      }
+    },
+    "TP_INDIGENA_LINGUA": {
+      "values": {
+        "1": "Somente em Língua Indígena",
+        "2": "Somente em Língua Portuguesa",
+        "3": "Em Língua Indígena e em Língua Portuguesa"
+      }
+    },
+    "TP_PROPOSTA_PEDAGOGICA": {
+      "values": {
+        "0": "Não",
+        "1": "Sim",
+        "2": "A escola não possui projeto político pedagógico/proposta pedagógica",
+        "9": "Não informado"
+      }
+    },
+    "TP_AEE": {
+      "values": {
+        "0": "Não oferece",
+        "1": "Não exclusivamente",
+        "2": "Exclusivamente"
+      }
+    },
+    "TP_ATIVIDADE_COMPLEMENTAR": {
+      "values": {
+        "0": "Não",
+        "1": "Sim"
+      }
+    }
+  }
+  
