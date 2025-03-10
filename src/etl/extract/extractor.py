@@ -24,4 +24,10 @@ class CensoExtractor:
             return True
         except Exception as e:
             self.logger.error(f"Erro na validação dos dados: {str(e)}")
-            return False 
+            return False
+
+    def extract_data(self, file_path):
+        """
+        Extract data from the given file path
+        """
+        pass  # Implement extraction logic as needed 

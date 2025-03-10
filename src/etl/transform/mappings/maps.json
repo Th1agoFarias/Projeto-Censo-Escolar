@@ -1,43 +1,77 @@
 {
+  "version": "1.0",
+  "mappings": {
+    "TP_SITUACAO_FUNCIONAMENTO": {
+      "description": "Situação de funcionamento da escola no ano do censo",
+      "values": {
+        "1": "Em Atividade",
+        "2": "Paralisada",
+        "3": "Extinta (ano do censo)",
+        "4": "Extinta em anos anteriores",
+        "default": "Situação não especificada"
+      }
+    },
     "TP_DEPENDENCIA": {
+      "description": "Dependência administrativa da escola",
       "values": {
         "1": "Federal",
         "2": "Estadual",
         "3": "Municipal",
-        "4": "Privada"
-      }
-    },
-    "TP_CATEGORIA_ESCOLA_PRIVADA": {
-      "values": {
-        "1": "Particular",
-        "2": "Comunitária",
-        "3": "Confessional",
-        "4": "Filantrópica"
+        "4": "Privada",
+        "default": "Dependência desconhecida"
       }
     },
     "TP_LOCALIZACAO": {
+      "description": "Localização geográfica da escola",
       "values": {
         "1": "Urbana",
-        "2": "Rural"
+        "2": "Rural",
+        "default": "Localização não especificada"
       }
     },
     "TP_LOCALIZACAO_DIFERENCIADA": {
+      "description": "Área diferenciada onde a escola está localizada",
       "values": {
         "0": "A escola não está em área de localização diferenciada",
         "1": "Área de assentamento",
         "2": "Terra indígena",
         "3": "Área onde se localiza comunidade remanescente de quilombos",
-        "8": "Área onde se localizam povos e comunidades tradicionais"
+        "4": "Unidade de uso sustentável",
+        "5": "Unidade de uso sustentável em terra indígena",
+        "6": "Unidade de uso sustentável em área remanescente de quilombos",
+        "default": "Área não especificada"
+      }
+    },
+    "TP_CATEGORIA_ESCOLA_PRIVADA": {
+      "description": "Categoria da escola privada",
+      "values": {
+        "1": "Particular",
+        "2": "Comunitária",
+        "3": "Confessional",
+        "4": "Filantrópica",
+        "default": "Categoria desconhecida"
+      }
+    },
+    "TP_CONVENIO_PODER_PUBLICO": {
+      "description": "Convênio da escola privada com o poder público",
+      "values": {
+        "1": "Municipal",
+        "2": "Estadual",
+        "3": "Estadual e Municipal",
+        "default": "Convênio não especificado"
       }
     },
     "TP_REGULAMENTACAO": {
+      "description": "Regulamentação da escola",
       "values": {
         "0": "Não",
         "1": "Sim",
-        "2": "Em tramitação"
+        "2": "Em tramitação",
+        "default": "Regulamentação desconhecida"
       }
     },
     "TP_RESPONSAVEL_REGULAMENTACAO": {
+      "description": "Órgão responsável pela regulamentação da escola",
       "values": {
         "1": "Federal",
         "2": "Estadual",
@@ -45,59 +79,72 @@
         "4": "Estadual e Municipal",
         "5": "Federal e Estadual",
         "6": "Federal, Estadual e Municipal",
-        "9": "Não informado"
+        "default": "Responsável não especificado"
       }
     },
     "TP_OCUPACAO_PREDIO_ESCOLAR": {
-      "values": {
-        "1": "Próprio",
-        "2": "Alugado",
-        "3": "Cedido"
-      }
-    },
-    "TP_OCUPACAO_GALPAO": {
+      "description": "Ocupação do prédio escolar",
       "values": {
         "1": "Próprio",
         "2": "Alugado",
         "3": "Cedido",
-        "9": "Não informado"
+        "default": "Ocupação não especificada"
       }
     },
     "TP_REDE_LOCAL": {
+      "description": "Tipo de rede local na escola",
       "values": {
         "0": "Não há rede local interligando computadores",
         "1": "A cabo",
         "2": "Wireless",
-        "3": "A cabo e wireless"
+        "3": "A cabo e Wireless",
+        "default": "Rede local não especificada"
       }
     },
     "TP_INDIGENA_LINGUA": {
+      "description": "Uso da língua indígena na escola",
       "values": {
         "1": "Somente em Língua Indígena",
         "2": "Somente em Língua Portuguesa",
-        "3": "Em Língua Indígena e em Língua Portuguesa"
+        "3": "Em Língua Indígena e em Língua Portuguesa",
+        "default": "Língua não especificada"
       }
     },
     "TP_PROPOSTA_PEDAGOGICA": {
+      "description": "Proposta pedagógica da escola",
       "values": {
         "0": "Não",
         "1": "Sim",
         "2": "A escola não possui projeto político pedagógico/proposta pedagógica",
-        "9": "Não informado"
+        "default": "Proposta não especificada"
       }
     },
     "TP_AEE": {
+      "description": "Atendimento Educacional Especializado (AEE)",
       "values": {
         "0": "Não oferece",
         "1": "Não exclusivamente",
-        "2": "Exclusivamente"
+        "2": "Exclusivamente",
+        "default": "AEE não especificado"
       }
     },
     "TP_ATIVIDADE_COMPLEMENTAR": {
+      "description": "Atividades complementares oferecidas pela escola",
       "values": {
-        "0": "Não",
-        "1": "Sim"
+        "0": "Não oferece",
+        "1": "Não exclusivamente",
+        "2": "Exclusivamente",
+        "default": "Atividade complementar não especificada"
+      }
+    },
+    "TP_OCUPACAO_GALPAO": {
+      "description": "Ocupação do galpão escolar",
+      "values": {
+        "1": "Próprio",
+        "2": "Alugado",
+        "3": "Cedido",
+        "default": "Ocupação do galpão não especificada"
       }
     }
   }
-  
+}
